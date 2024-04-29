@@ -9,6 +9,7 @@ header{
     border-radius: 10px ;
     padding: 20px;
     color: #85a98d;
+    border-color: white;
 }
 .navbar{
     display: flex;
