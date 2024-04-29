@@ -1,0 +1,20 @@
+header{
+    background-color: #374f54;
+    height: 60px;
+}
+.logo {
+    height: 50px;
+}
+.navbutton{
+    border-radius: 10px ;
+    padding: 20px;
+    color: #85a98d;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+}
+body{
+    margin: 0;
+}

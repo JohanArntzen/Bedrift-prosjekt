@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 117.48 64.59">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #517970;
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-family: ArialRoundedMTBold, 'Arial Rounded MT Bold';
+        font-size: 36px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g>
+        <path class="cls-1" d="M85.19,0c-8.28,0-15.82,3.12-21.54,8.24,5.12,6.66,8.17,15,8.17,24.06s-3.05,17.39-8.17,24.06c5.72,5.12,13.26,8.24,21.54,8.24,17.84,0,32.29-14.46,32.29-32.29S103.02,0,85.19,0Z"/>
+        <circle class="cls-1" cx="32.29" cy="32.29" r="32.29" transform="translate(-13.38 32.29) rotate(-45)"/>
+      </g>
+      <text class="cls-2" transform="translate(76.53 45)"><tspan x="0" y="0">4</tspan></text>
+      <text class="cls-2" transform="translate(19.64 45.14)"><tspan x="0" y="0">B</tspan></text>
+    </g>
+  </g>
+</svg>
