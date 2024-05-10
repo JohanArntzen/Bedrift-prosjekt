@@ -20,6 +20,32 @@ body{
     margin: 0;
 }
 
+.center{
+    display: flex; 
+    justify-content: center;
+
+    width: 100vw; 
+    height: 100vh; 
+}
+
 .media-scroller{
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    position: relative; 
+    top: 30%; 
+    gap: 30px; 
+    background-color: rgb(120, 211, 108); 
+    width: 95%; 
+    height: 65vh; 
     overscroll-behavior-inline: contain;
+    overflow-x: hidden; 
+    overflow-y: auto; 
+}
+
+.media-element{
+    
+    width: 22%; 
+    height: 60%; 
+    background-color: blue; 
 }
