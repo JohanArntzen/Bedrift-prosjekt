@@ -10,17 +10,62 @@
     <title>BB</title>
 </head>
 <body>
-    <header>
-        <div class="navbar">
+    <div class="navbar">
+        <div class="nav-venstre">
             <img class="logo"src="BB_small.svg">
             <div class="navbutton">Kjøretøy</div>
             <div class="navbutton">Chat</div>
-            <div class="navbutton">Om oss</div>
-            <div class="search-bar"></div>
+            <div class="navbutton">Om oss</div>            
         </div>
-        <div class="search"></div>
+        <div class="nav-høyre">
+            <img class="search"src="Magnifying-glass.svg">
+        </div>
+    </div>
+    <div class="search"></div>
+    </div>
 
-        </div>
-    </header>
+
+
+
+    <style>
+    .navbar{
+        position: absolute;
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 10%;
+        top: 0;
+        left: 0;
+        background-color: #374f54;
+    }
+    .nav-venstre{
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: left;
+    }
+    .nav-høyre{
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: right;
+    }
+    
+    .logo {
+        width: 30%;
+        height: 80%;
+    }
+
+    .navbutton{
+        color: #85a98d;
+        width: 25%;
+        font-family: futura;
+        font-size: 1.5rem;
+    }
+    .search{
+        display: flex;
+        height: 80%;
+    }
+    </style>
 </body>
 </html>
