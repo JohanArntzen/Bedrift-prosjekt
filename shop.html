@@ -20,12 +20,24 @@
         </div>
         <div class="nav-høyre">
             <form action="">
-                <input type="search" required>
-                <i class="fa fa-search"></i>
+            <input type="search" required>
+            <i class="fa fa-search"></i>
+            <a href="javascript:void(0)" id="clear-btn">Clear</a>
             </form>
         </div>
     </div>
-    <div class="video"></div>
+    <div class="shop_list">
+        <div class="border_rundtvarer">
+            <div class="bil_vare"></div> 
+            <div class="bil_vare"></div> 
+            <div class="bil_vare"></div> 
+            <div class="bil_vare"></div> 
+            <div class="bil_vare"></div> 
+        </div>
+    </div>
+
+
+
 
 
     <style>
@@ -46,11 +58,10 @@
         align-items: center;
     }
     .nav-høyre{
-        width: 40%;
+        width: 50%;
         display: flex;
-        justify-content: center;
-        align-items: top;
-
+        justify-content: flex-end;
+        align-items: center;
     }
     
     .logo {
@@ -76,7 +87,31 @@ body {
     margin: 0;
     height: 100vh;
     width: 100%;
-    background: #07051a;
+
+}
+.border_rundtvarer{
+    /*border: 2px solid rgb(73, 73, 73); */
+    padding: 10px; 
+}
+
+
+.shop_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-right: 500px;
+    border: 2px solid rgb(211, 211, 211); 
+    padding: 10px; 
+}
+
+.bil_vare {
+    border: 100px black;
+    padding: 50px;
+    margin: 10px; 
+    background-color: black;
 }
 
 form{
@@ -91,7 +126,7 @@ form{
     box-sizing: border-box;
     border-radius: 25px;
     border: 4px solid white;
-    padding: 0.5rem;
+    padding: 5px;
 }
 
 input{
@@ -159,5 +194,15 @@ form:valid a {
   display: block;
 }
 </style>
+<script>
+const clearInput = () => {
+  const input = document.getElementsByTagName("input")[0];
+  input.value = "";
+}
+
+
+const clearBtn = document.getElementById("clear-btn");
+clearBtn.addEventListener("click", clearInput);
+</script>
 </body>
 </html>
