@@ -111,15 +111,18 @@ body{
 
 
 
-.text-box {
+.text_box {
     background-color: white;
-    border-radius: 100%;
+    border-radius: 50%;
     display: flex;
     flex-direction: column;
     text-align: center;
     width: 30%;
     height: 170%;
-    
+    animation-name: keyframe;
+    animation-duration: 0ms;
+    animation-iteration-count: infinite;
+
 }
 .pushy-da-box {
     width: 30%;
@@ -139,6 +142,7 @@ body{
 
 #bg_image{
     position: relative;
+
 }
   
 #bg_image:before {
@@ -149,14 +153,38 @@ body{
     top: 0;
     width: 100%;
     height: 100%;
-    opacity: 2;
+    opacity: 1;
     background-image: url('https://images.unsplash.com/flagged/photo-1553505192-acca7d4509be?ixlib=rb-4.0.3');
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-size: cover;
     
+    
 }
-  
+
+
+
 #bg_image_opacity_overrite {
     position: relative;
+   
+}
+
+
+@keyframes keyframe{
+    0% {background-color: rgb(216, 14, 14);}
+    50% {background-color: rgba(227, 43, 251);}
+    100% {background-color: rgb(216, 14, 14);}
+    
+}
+.nigger_tekst{
+    display: none;
+    color: black;
+  
+}
+
+.secret{
+   z-index: 100;
+    position: absolute;
+    height: 5%;
+    width: 5%;
 }
