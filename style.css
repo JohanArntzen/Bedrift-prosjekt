@@ -140,9 +140,11 @@ body{
     border-radius: 50%;
     display: flex;
     flex-direction: column;
+   
+   
     text-align: center;
     width: 30%;
-    height: 170%;
+    height: 28rem;
     animation-name: keyframe;
     animation-duration: 0ms;
     animation-iteration-count: infinite;
@@ -155,6 +157,8 @@ body{
     font-family: futura;
     font-size: 4rem; 
     font-weight: bold; 
+    margin: 0;
+    
 }
 
 .body-text{
