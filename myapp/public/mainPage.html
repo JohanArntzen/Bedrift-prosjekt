@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <html lang="no"></html>
+    <meta charset="UTF-8">
+    <meta name="author" content="Henrik, Storm, Anders">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta name="keywords" content="Billige Bruktbiler, Bruktbiler, BB, BBBB">
+    <title>BB</title>
+</head>
+<body>
+    <div class="horisontal-center">
+        <div class="search-container">
+            <input type="text" class="search-bar" placeholder="Søk etter biler..."/>
+            <div class="bottom-line"></div>
+        </div>
+    </div>
+    <div class="center">
+        <div class="media-scroller snaps" media_container>
+            <template data_template>
+                <div class="media-element">
+                    <div class="bilmodell" bilmodell></div>
+                    <div class="pris" pris></div>
+                    <div class="bilde" bilde></div>
+                </div>
+            </template>
+            <div id="s"></div>
+        </div>
+    </div>
+    <script src="./myapp/server.js"></script>
+    <script src="./myapp/index.js"></script>
+</body>
